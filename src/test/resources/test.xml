@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false" verbose="10" perserve-order="true">
+  <test name="Test">
+    <classes>
+      <class name="pl.lhsystems.successFactors.Tests.CopyOfLoginTest"/>
+      <class name="pl.lhsystems.successFactors.Tests.AddNewEmployeeIdentityTest"/>
+      <class name="pl.lhsystems.successFactors.Tests.AddNewEmployeePersonalInformationTest"/>
+      <class name="pl.lhsystems.successFactors.Tests.AddNewEmployeeJobInformationTest"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

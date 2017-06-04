@@ -1,0 +1,54 @@
+[
+	{
+		"HireDate": "MM/dd/yyyy",
+		"LegalEntity": "LSG",
+		"EventReason": "New Hire",
+		"FirstName": "Name",
+		"LastName": "Last",
+		"MiddleName": "Middle",
+		"Salutation": "Mr.",
+		"Suffix": "Jr",
+		"DoB": "01/01/1990",
+	
+		"nationalIDDetails": [
+			{"Country": "United States",
+			"IDCardType": "Social Security Number",
+			"IDNumber": "123121234",
+			"isPrimary": "Yes"}
+		],
+	
+		"Nationality": "United States",
+		"MartialStatus": "Single",
+		"Retired": "No",
+	
+		"emailDetails": [
+			{"eMailType": "Business",
+			"eMailAddress": "wp@wp.pl",
+			"isPrimaryEmail": "Yes"}
+		],
+		"phoneDetails": [
+			{"phoneType": "Business Landline",
+			"CountryCode": "+1",
+			"AreaCode": "247",
+			"PhoneNumber": "555555555",
+			"isPrimaryPhone": "Yes"}
+		],
+		"addressDetails": [
+			{"AddressLine1": "Street 1",
+			"City": "Dallas",
+			"State": "Texas",
+			"ZIP": "12345"}
+		],
+		
+		"position": "Auto Test 2",
+		"CostCenter": "LSG_CostCenter",
+		"JobCode": "Accountant",
+		"RegularTemporary": "Regular",
+		"standardHoursPerWeek": "0.5",
+		"workingDaysPerWeek": "1",
+		"ContractEndDate": "01/01/2020",
+		"EmployeeType": "Hourly",
+		"EmployeeClass": "Employee",
+		"DateOfCommencementOfWorkInput": "09/01/2016"
+	}
+]

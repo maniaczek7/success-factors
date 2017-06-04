@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="addNewEmployeeSuite" parallel="false" verbose="10" preserve-order="true">
+  <listeners>
+    <listener class-name="pl.lhsystems.successFactors.Utils.ExtentReporterNGListener" />
+  </listeners>
+  <test name="addNewEmployeeTest">
+    <classes>
+      <class name="pl.lhsystems.successFactors.Tests.CopyOfLoginTest"/>
+      <class name="pl.lhsystems.successFactors.Tests.AddNewEmployeeIdentityTest"/>
+      <class name="pl.lhsystems.successFactors.Tests.AddNewEmployeePersonalInformationTest"/>
+      <class name="pl.lhsystems.successFactors.Tests.AddNewEmployeeJobInformationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
